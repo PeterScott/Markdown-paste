@@ -44,7 +44,7 @@ class ViewPaste(webapp.RequestHandler):
             template_values = {"content": paste.content, 
                                "created_time": paste.created_time.strftime('%B %d, %Y'),
                                "title": paste.title}
-            path = os.path.join(os.path.dirname(__file__), 'view.html')
+            path = os.path.join(os.path.dirname(__file__), 'templates', 'view.html')
             content = template.render(path, template_values)
             memcache.add('paste:' + key_str, content)
 

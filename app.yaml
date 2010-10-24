@@ -6,16 +6,16 @@ api_version: 1
 handlers:
 
  - url: /
-   static_files: index.html
-   upload: index\.html
+   static_files: static/index.html
+   upload: static/index\.html
 
  - url: /style.css
-   static_files: style.css
-   upload: style\.css
+   static_files: static/style.css
+   upload: static/style\.css
 
  - url: /favicon.ico
-   static_files: favicon.ico
-   upload: favicon\.ico
+   static_files: static/favicon.ico
+   upload: static/favicon\.ico
 
  - url: /.*
    script: main.py
