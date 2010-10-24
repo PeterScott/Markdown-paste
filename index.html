@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<title>Markdown Paste</title>
+<link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+
+<body>
+<div id="content">
+<h1>Enter text, and we'll store it.</h1>
+
+  <p style="color: #aaa">Formatting: <b>**bold**</b>, <i>*italic*</i>,
+  [<span style="text-decoration: underline">link text</span>](http://example.com/).</p>
+
+<form action="/save" method="post">
+  <b>Title:&nbsp;</b> <input type="text" name="title" size="100" /><br />
+  <textarea id="text" rows="30" cols="80" name="text"></textarea>
+  <p><input type="submit" value="Save" id="submitbutton">
+</form>
+
+</div>
+</body> </html>

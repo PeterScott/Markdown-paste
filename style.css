@@ -1,0 +1,15 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Gill Sans Bold', 'Optima Bold', Arial, sans-serif;
+}
+
+#content {
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
